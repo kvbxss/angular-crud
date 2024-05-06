@@ -5,7 +5,7 @@ import router from './routes';
 const app = express();
 app.use(express.json());
 
-const MONGO_URL = 'mongodb+srv://jakubroot:jakubroot@crud.3qq4mg1.mongodb.net/?retryWrites=true&w=majority&appName=crud';
+const MONGO_URL = '';
 mongoose.connect(MONGO_URL, {
     dbName: "node-typescript-app",
 }).then(()=>{
