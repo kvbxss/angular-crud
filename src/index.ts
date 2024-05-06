@@ -6,9 +6,11 @@ import cors from 'cors'
 const app = express();
 app.use(express.json());
 
+<<<<<<< HEAD
 app.use(cors());
-
-const MONGO_URL = 'mongodb+srv://jakubroot:jakubroot@crud.3qq4mg1.mongodb.net/?retryWrites=true&w=majority&appName=crud';
+=======
+const MONGO_URL = '';
+>>>>>>> e116af50826a9242072241040cb82c6b1894adc1
 mongoose.connect(MONGO_URL, {
     dbName: "node-typescript-app",
 }).then(()=>{
